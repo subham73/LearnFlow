@@ -71,7 +71,7 @@ with gr.Blocks(css="""
                
 """) as demo:
     gr.Markdown("# 📚 LearnFlow")
-    gr.Markdown("""🔹 **🗺️ Personalized Study Workflow**  🔹 **🧠 Meaningful Reasoning & Outcomes**  🔹 **📘 Beginner-Friendly Resources**  🔹 **❓ Grasp Check Questions**    """)
+    gr.Markdown("""🔹**🗺️ Personalized Study Workflow**  🔹**🧠 Meaningful Reasoning & Outcomes**  🔹**📘 Beginner-Friendly Resources**  🔹**❓ Grasp Check Questions**""")
 
     with gr.Row():
         with gr.Column(scale=1):
@@ -84,7 +84,7 @@ with gr.Blocks(css="""
 
             with gr.Group(elem_id="feedback-section", visible=False) as feedback_section:
                 userFeedback = gr.Textbox(label="ℹ️ Help us know what you’re looking for")
-                submitWithFeeback = gr.Button("🔂 Suggest What to Learn (Revised)", elem_classes="gr-button")
+                submitWithFeeback = gr.Button("🔂 Update the flow with feedback", elem_classes="gr-button")
 
             resource_button = gr.Button("📘 Click to get Resource", visible=False, elem_classes="gr-button")
 
