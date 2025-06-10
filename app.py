@@ -71,7 +71,7 @@ with gr.Blocks(css="""
                
 """) as demo:
     gr.Markdown("# 📚 LearnFlow")
-    gr.Markdown("""🔹**🗺️ Personalized Study Workflow**  🔹**🧠 Meaningful Reasoning & Outcomes**  🔹**📘 Beginner-Friendly Resources**  🔹**❓ Grasp Check Questions**""")
+    gr.Markdown("""🔹 **🗺️ Personalized Study Workflow**  🔹 **🧠 Meaningful Reasoning & Outcomes**  🔹 **📘 Beginner-Friendly Resources**  🔹 **❓ Grasp Check Questions** """)
 
     with gr.Row():
         with gr.Column(scale=1):
