@@ -10,9 +10,14 @@ pinned: true
 license: mit
 short_description: Imagine having a smart educational guide right at your side.
 ---
+---
+tags: 
+    - agent-demo-track
+---
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
-
+<div align="center">
+  <iframe width="560" height="315" src="https://youtu.be/2UTir0MX0kU" title="LearnFlow Usecase" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ---
 
