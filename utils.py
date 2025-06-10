@@ -22,13 +22,19 @@ _cached_data = {
 }
 # === Connector to Frontend ===
 def driver(age: int, background: str, interest: str, feedback: Union[str, None] = None):
-    _, study_plan_response = get_learning_suggestion(client, age, background, interest, feedback)  
+    status, study_plan_response = get_learning_suggestion(client, age, background, interest, feedback)  
     
     # Save the response in the cache  
-    _cached_data["reason"] = study_plan_response.reason
-    _cached_data["expected_outcome"] = study_plan_response.expected_outcome
-    _cached_data["resources"] = study_plan_response.resources
-
+    if status == "complete":
+        _cached_data["reason"] = study_plan_response.reason
+        _cached_data["expected_outcome"] = study_plan_response.expected_outcome
+        _cached_data["resources"] = study_plan_response.resources
+    elif status == "clarify":
+        # If the model asks for clarification, we return the follow-up question
+        return None, study_plan_response, None
+    else:
+        return None, f"Error: {study_plan_response}", None
+    
     study_workflow_diagram = get_studyflow_diagram(study_plan_response.study_workflow)
     # if feedback:
     #     feedback_interpretation = interpret_feedback(feedback)
