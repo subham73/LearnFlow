@@ -1,4 +1,5 @@
-python
-openai
-pydantic
-gradio
+
+python>=3.12
+openai>=1.5
+pydantic>=2.10
+gradio >=5.3
