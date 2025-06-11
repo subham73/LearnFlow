@@ -12,8 +12,8 @@ short_description: Imagine having a smart educational guide right at your side.
 tags: [agent-demo-track]
 ---
 
+![LearnFlow Banner](.\assets\slide2.JPG "LearnFlow Banner")
 ## 🎥 [Watch the LearnFlow Usecase Video](https://youtu.be/2UTir0MX0kU)
-![LearnFlow Banner](.\images\main_pic.JPG "LearnFlow Banner")
 
 # 📑 LearnFlow Agent
 
@@ -117,10 +117,5 @@ MIT License
 ---
 ## 🙌 Contribute
 Have ideas? Found a bug? PRs and feedback are welcome. Let's build better learning tools together. 🤝
----
-
----
-tags: 
-    - sambanova   
 ---
 
