@@ -15,8 +15,10 @@ tags:
     - agent-demo-track
 ---
 
-[Watch the LearnFlow Usecase Video](https://youtu.be/2UTir0MX0kU)
-
+<!-- [Watch the LearnFlow Usecase Video](https://youtu.be/2UTir0MX0kU) -->
+<div align="center">
+  <iframe width="560" height="315" src="https://youtu.be/2UTir0MX0kU" title="LearnFlow Usecase Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 # 📑 LearnFlow Agent
 
