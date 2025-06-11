@@ -9,11 +9,9 @@ app_file: app.py
 pinned: true
 license: mit
 short_description: Imagine having a smart educational guide right at your side.
+tags: agent-demo-track
 ---
----
-tags: 
-    - agent-demo-track
----
+
 ## 🎥 [Watch the LearnFlow Usecase Video](https://youtu.be/2UTir0MX0kU)
 ![LearnFlow Banner](.\images\main_pic.JPG "LearnFlow Banner")
 
