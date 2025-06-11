@@ -15,16 +15,12 @@ tags:
     - agent-demo-track
 ---
 
-<div align="center">
-  <iframe width="560" height="315" src="https://youtu.be/2UTir0MX0kU" title="LearnFlow Usecase" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+[Watch the LearnFlow Usecase Video](https://youtu.be/2UTir0MX0kU)
 
----
 
 # 📑 LearnFlow Agent
 
 ### Your Smart Educational Guide for Personalized Learning Paths 🧠📚
----
 ## 🎯 What is LearnFlow Agent?
 
 **LearnFlow Agent** is an intelligent, conversational tool that helps you figure out *what to learn next* — tailored precisely to your **age**, **background**, and **interests**.
