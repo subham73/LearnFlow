@@ -12,7 +12,7 @@ short_description: Imagine having a smart educational guide right at your side.
 tags: [agent-demo-track]
 --- -->
 
-![LearnFlow Banner](./assets/slide2.JPG)
+![LearnFlow Banner](assets\Slide2.JPG)
 ## 🎥 [Watch the LearnFlow Usecase Video](https://youtu.be/2UTir0MX0kU)
 
 # 📑 LearnFlow Agent
